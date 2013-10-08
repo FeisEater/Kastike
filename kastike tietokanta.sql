@@ -1,4 +1,3 @@
-
 --Reseptitaulu
 
 CREATE TABLE RESEPTI 
@@ -12,7 +11,7 @@ Vaikeusaste int,
 Esivalmistusaika int, --minuutteja
 Kypsennysaika int, --minuutteja
 
-
+--genien kommentti :D
 --Ehdot ja keyt
 CONSTRAINT tarkistaVaikeusaste  CHECK (Vaikeusaste BETWEEN 0 AND 5),
 
